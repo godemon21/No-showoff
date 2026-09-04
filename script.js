@@ -31,7 +31,7 @@ function init() {
 			container.addChild(heart);
 		}
 
-  var text = new createjs.Text("the longer I'm with you\nthe more I love you", "bold 24px Arial", "#312");
+  var text = new createjs.Text("Lots of things I want to say\nbut I can't because \nI didn't see the hint", "bold 24px Arial", "#E39684");
   text.textAlign = "center";
   text.x = w / 2;
   text.y = h / 2 - text.getMeasuredLineHeight();
