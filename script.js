@@ -31,7 +31,7 @@ function init() {
 			container.addChild(heart);
 		}
 
-  var text = new createjs.Text("Lots of things I want to say\nbut I can't because \nI didn't see the hint", "bold 24px Arial", "#E39684");
+  var text = new createjs.Text("Lots of things I want to say\nbut I can't because \nI didn't see the hint\nAm I doing right Zara ?!!", "bold 24px Arial", "#E39684");
   text.textAlign = "center";
   text.x = w / 2;
   text.y = h / 2 - text.getMeasuredLineHeight();
